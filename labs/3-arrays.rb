@@ -15,3 +15,18 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk","eggs","cookies"]
+your_list = ["beer","cookies","apples"]
+
+total_list = my_list + your_list
+p total_list.sort
+
+total_list = total_list.sort
+p total_list = total_list.uniq
+
+total_list = total_list.uniq
+
+for item in total_list
+    puts "Buy #{item}!"
+end

@@ -15,3 +15,10 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+dice1 = rand(1..6)
+dice2 = rand(1..6)
+
+roll = [dice1, dice2, dice1 + dice2]
+
+p roll
